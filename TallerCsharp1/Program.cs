@@ -33,6 +33,13 @@ namespace TallerCsharp1
             Console.WriteLine("El producto es: " + (producto+2));
             Console.WriteLine($"El producto de {a}*{b}={producto + 2}");
 
+            Console.WriteLine();//Salto de linea
+            Console.WriteLine("Algoritmo area del Triangulo");
+
+            ejercicio01 eje1 = new ejercicio01();//Decirle a chatgtp que me explique esto
+            eje1.areaTriangulo();
+
+
             //Detener la pantalla
             Console.ReadKey();
 
